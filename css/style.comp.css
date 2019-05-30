@@ -185,7 +185,7 @@ body {
   padding: 1.5rem 4rem;
   display: inline-block;
   border-radius: 10rem;
-  transition: all .2s;
+  transition: all .4s;
   position: relative;
   font-size: 1.6rem;
   border: none;
@@ -238,13 +238,15 @@ body {
   text-decoration: none;
   border-bottom: 1px solid #005AA7;
   padding: 3px;
-  transition: all .2s; }
+  transition: all .4s; }
 
 .btn-text:hover {
-  background-color: #005AA7;
+  background-color: #0082c8;
   color: #fff;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
-  transform: translateY(-2px); }
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+  border-radius: 3px;
+  border-bottom: none; }
 
 .btn-text:active {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -583,7 +585,7 @@ body {
     -webkit-hyphens: auto;
     hyphens: auto; }
   .popup__boldtext {
-    font-weight: 400; }
+    font-weight: 900; }
   .popup:target {
     opacity: 1;
     visibility: visible; }
