@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/icon-font.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <!-- <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script> -->
+    <title>James Aspinall</title>
+</head>
+
+<body>
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#section-about" class="navigation__link"><span>01</span>About Me</a></li>
+                <li class="navigation__item"><a href="#section-features" class="navigation__link"><span>02</span>My Journey</a></li>
+                <li class="navigation__item"><a href="#section-projects" class="navigation__link"><span>03</span>What I've Learnt</a></li>
+                <li class="navigation__item"><a href="#section-projects" class="navigation__link"><span>04</span>Projects</a></li>
+                <li class="navigation__item"><a href="#footer" class="navigation__link"><span>05</span>Contact Me</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <header class="header">
+        <!-- TODO -->
+        <!-- Logo from code along, design you own logo -->
+        <!-- <div class="header__logo-box">
+                <img src="img/logo-white.png" alt="Logo" class="header__logo">
+            </div> -->
+
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">James Aspinall</span>
+                <span class="heading-primary--sub">Junior Developer</span>
+            </h1>
+
+            <a data-scroll href="#section-about" class="btn btn--white btn--animated">Find Out More</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-about" id="section-about">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    Hello, I'm James
+                </h2>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-2">
+                    <h3 class="heading-tertiary u-margin-bottom-small">I am a Junior Developer, who loves frontend
+                        design.</h3>
+                    <p class="paragraph">
+                        I live in Bronte; love the ocean as well as motorbikes & my best mate Cooper (he's over there). After 11 years in IT Recruitment, I finally got the chance to pursue my passion and enrolled in General Assembly's first Software Engineering course. A VERY intense 13 week, full-time course on full stack development. 
+                    </p>
+
+                    <h3 class="heading-tertiary u-margin-bottom-small">During My Course We Covered 
+                    </h3>
+                    <p class="paragraph">
+                        We covered the full stack of modern software development. With a focus on Javascript and its popular frameworks, React & Vue. As well as this, we looked at backend tech such as Ruby on Rails &amp; NodeJS. I can tell you the whole list when we met for a coffee!  <i class="fas fa-coffee"></i> 
+                    </p>
+
+                    <a href="https://drive.google.com/file/d/10hl2ljhUN--uqYdY9lAd9_NmJHkSeQ4M/view?usp=sharing" class="btn-text" target="_blank">Download My CV &rarr;</a>
+                </div>
+                <div class="col-1-of-2">
+                    <div class="composition">
+
+                        <img srcset="img/cooper.jpg"
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 1"
+                            class="composition__photo composition__photo--p1" src="img/cooper.jpg">
+
+                        <img srcset="img/ga-group.jpg"
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 2"
+                            class="composition__photo composition__photo--p2" src="img/ga-group.jpg">
+
+                        <img srcset="img/profile-pic.jpg"
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Picture Of James"
+                            class="composition__photo composition__photo--p3" src="img/profile-pic.jpg">
+
+                     
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-features" id="section-features">
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-heart"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">General Assembly <br /> Mar 2019 - Jun 2019
+                        </h3>
+                        <p class="feature-box__text">
+                            Followed my dream and pursued my passion for development. I enrolled in the first Software
+                            Engineering course to train a full stack developer. My goal is to become a Frontend
+                            Developer.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-case"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Business Owner <br /> Aug 2017 - Mar 2019
+                        </h3>
+
+                        <p class="feature-box__text">
+                            Following 11 years in recruitment, I started my own company with my partner specialing in
+                            Automation Testing, DevOps & Development partnering with FinTechs & Startups assembling
+                            agile teams.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-headset"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Attribute Group <br /> Feb 2014 - Jul 2017 </h3>
+                        <p class="feature-box__text">
+                            Senior Recruiter specialising in automation testing. Worked closely with Test and
+                            Development Managers to build agile testing teams to designing &amp; building automation frameworks from scratch.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-paperplane"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Move To Sydney <br /> Jan 2014</h3>
+                        <p class="feature-box__text">
+                            As beautiful as Stoke-on-Trent is...<i class="far fa-grin-tongue"></i> I wanted to explore the world and experience sunshine. While I had the chance I sold everything I had, packed my bags and jumped on a flight with no job &amp; no plan! 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-tours" id="section-projects">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    What I Have Learnt &amp; Projects
+                </h2>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--1">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--1">Weeks One To Six</span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>Tools & IDE Induction</li>
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                    <li>JavaScript</li>
+                                    <li>jQuery</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-1">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-only">Project 1</p>
+                                    <p class="card__price-value">TicTacToe</p>
+                                </div>
+                                <a href="#popup1" class="btn btn--white">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--2">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--2">Weeks Seven To Thirteen</span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>Ruby on Rails</li>
+                                    <li>npm & nodeJS</li>
+                                    <li>AJAX, JSON & REST APIs</li>
+                                    <li>ReactJS &amp; VueJS</li>
+                                    <li>GatsbyJS</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="card__side card__side--back card__side--back-2">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-only">Project 2</p>
+                                    <p class="card__price-value">Daycare CRM</p>
+                                </div>
+                                <a href="#popup2" class="btn btn--white">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--3">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--3">Extras On The Side</span>
+                            </h4>
+                            <div class="card__details">
+                                 <ul>
+                                                <li>Udemy: Adavance CSS & Sass</li>
+                                                <li>Hours of Homework</li>
+                                                <li>Udemy: React &amp; Hooks</li>
+                                                <li>Meetup: SydJS</li>
+                                                <li>Meetup: ReactSydney</li>
+                                            </ul>
+                            </div>
+
+                        </div>
+                        <div class="card__side card__side--back card__side--back-3">
+                                <div class="card__cta">
+                                        <div class="card__price-box">
+                                            <p class="card__price-only">Project 3</p>
+                                            <p class="card__price-value">Kahoot!</p>
+                                        </div>
+                                        <a href="#popup3" class="btn btn--white">Learn More</a>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="u-center-text u-margin-top-huge">
+                <a href="https://www.github.com/jamaspy" class="btn btn--green"><i class="fab fa-github"></i> Check Out All My Work</a>
+            </div>
+        </section>
+
+ 
+
+    <footer class="footer" id="footer">
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <p>Mobile: 0423 567 498</p>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="https://www.github.com/jamaspy" class="footer__link" target="_blank"><i class="fab fa-github"></i></a></li>
+                        <li class="footer__item"><a href="https://www.linkedin.com/in/jamesaspinall/" class="footer__link" target="_blank"><i class="fab fa-linkedin" ></i></a></li>
+                        <li class="footer__item"><a href="https://www.twitter.com/thepeopletester" class="footer__link" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        
+                        <li class="footer__item"><a href="mailto:aspin@me.com" class="footer__link" ><i class="far fa-envelope"></i></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+                <p class="footer__copyright">
+                    Built by <a href="https://drive.google.com/file/d/10hl2ljhUN--uqYdY9lAd9_NmJHkSeQ4M/view?usp=sharing" class="footer__link">James Aspinall</a> coding along and adpating Jonas Schmedtmann's Udemy Advanced CSS and Sass course, which I highly recommend. Images are not my own, they are from very talented people on Unsplashed and are of my local area. Thank You! 
+                </p>
+            </div>
+        </div>
+    </footer>
+<!-- This is the popup for the projects -->
+    <div class="popup" id="popup1">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img src="img/tictactao2.png" alt="Tour photo" class="popup__img">
+                <img src="img/tictactao2.png" alt="Tour photo" class="popup__img">
+            </div>
+            <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
+                <h2 class="heading-secondary u-margin-bottom-small">TicTacToe</h2>
+                <h3 class="heading-tertiary u-margin-bottom-small">Interactive TicTacToe Game</h3>
+                <p class="popup__text">
+                    <span class="popup__boldtext">Brief:</span> Make an interactive Tic Tac Toe <i class="fab fa-slack-hash"></i> game to familiarise yourself with DOM manipulation using Javascript, jQuery and CSS styling. Players should be able to select their icon, know when the game is won &amp; play again.
+                    <br /><span class="popup__boldtext">Tech: HTML, CSS, Bootstrap, Javascript, jQuery</span>
+                </p>
+                <a href="https://github.com/jamaspy/tic-tac-toe" class="btn btn--green" target="_blank"><i class="fab fa-github"></i> See The Code</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="popup" id="popup2">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img src="img/ddc1.png" alt="DayCareScreenshot" class="popup__img">
+                <img src="img/ddc2.png" alt="DayCareScreenshot" class="popup__img">
+            </div>
+            <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
+                <h2 class="heading-secondary u-margin-bottom-small">Dog Day Care CRM</h2>
+                <h3 class="heading-tertiary u-margin-bottom-small">Responsive CRUD System For A Dog Day Care Center</h3>
+                <p class="popup__text">
+                    <span class="popup__boldtext">Brief:</span> Using Ruby on Rails create a CRUD System on a subject of your choice. You should have at least 3 models in your project (I have 6 <i class="far fa-smile-wink"></i>), a user should be able to log in, there should be an admin account, and it should be hosted on Heroku.
+                    <br /><span class="popup__boldtext">Tech: HTML, CSS, Bootstrap, Ruby on Rails, Heroku</span>
+                </p>
+                <a href="https://github.com/jamaspy/doggie_daycare" class="btn btn--green" target="_blank"><i class="fab fa-github"></i> See The Code</a>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="popup3">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img src= "img/kahoot1.png" alt="Tour photo" class="popup__img">
+                <img src="img/kahoot2.png" alt="Tour photo" class="popup__img">
+            </div>
+            <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
+                <h2 class="heading-secondary u-margin-bottom-small">Kahoot Clone</h2>
+                <h3 class="heading-tertiary u-margin-bottom-small">Multiple Player Quiz Game</h3>
+                <p class="popup__text">
+                    <span class="popup__boldtext">Brief:</span> A group project using any technology you wish & making anything you like in 5 days <i class="far fa-surprise"></i> We decided to replicate the Kahoot Quiz game. Initially, we tried using ActionCable (Bad Idea) and then went with Firebase &amp; got all 21 students playing a game at the same time!
+                    <br /><span class="popup__boldtext">Tech: ReactJS, Javascript, SASS, RoR, Firebase</span>
+                </p>
+                <a href="https://github.com/jamaspy/kahootz_client" class="btn btn--green" target="_blank"><i class="fab fa-github"></i> See The Code</a>
+            </div>
+        </div>
+    </div>
+   
+</body>
+
+</html>
