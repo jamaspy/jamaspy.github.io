@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <!-- jQuery CDN -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="css/icon-font.css">
@@ -14,25 +19,36 @@
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
     <!-- <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script> -->
     <title>James Aspinall</title>
+
+    <!-- Hide menu when link is clicked -->
+    <script>
+        $(document).ready(function(){
+                $("#navigation a[href]").click(function(){
+                $("#navi-toggle").prop("checked", false);
+            }); 
+        });
+    </script>
+
+    
 </head>
 
 <body>
-    <div class="navigation">
+    <div class="navigation" id="navigation">
         <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
 
         <label for="navi-toggle" class="navigation__button">
             <span class="navigation__icon">&nbsp;</span>
         </label>
 
-        <div class="navigation__background">&nbsp;</div>
+        <div class="navigation__background" id="navBack">&nbsp;</div>
 
         <nav class="navigation__nav">
             <ul class="navigation__list">
-                <li class="navigation__item"><a href="#section-about" class="navigation__link"><span>01</span>About Me</a></li>
-                <li class="navigation__item"><a href="#section-features" class="navigation__link"><span>02</span>My Journey</a></li>
-                <li class="navigation__item"><a href="#section-projects" class="navigation__link"><span>03</span>What I've Learnt</a></li>
-                <li class="navigation__item"><a href="#section-projects" class="navigation__link"><span>04</span>Projects</a></li>
-                <li class="navigation__item"><a href="#footer" class="navigation__link"><span>05</span>Contact Me</a></li>
+                <li class="navigation__item"><a id="link"  href="#section-about" class="navigation__link"><span>01</span>About Me</a></li>
+                <li class="navigation__item"><a id="pink" href="#section-features" class="navigation__link"><span>02</span>My Journey</a></li>
+                <li class="navigation__item"><a id="link" href="#section-projects" class="navigation__link"><span>03</span>What I've Learnt</a></li>
+                <li class="navigation__item"><a id="link" href="#section-projects" class="navigation__link"><span>04</span>Projects</a></li>
+                <li class="navigation__item"><a id="link" href="#footer" class="navigation__link"><span>05</span>Contact Me</a></li>
             </ul>
         </nav>
     </div>
